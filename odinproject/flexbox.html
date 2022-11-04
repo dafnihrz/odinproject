@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/page.css">
+<title>Home</title>
+<style>
+    h3{
+        text-align: left;
+        margin-top: 3%;
+    }
+    .section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* one */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: dodgerblue;
+        border: 4px solid midnightblue;
+        width: 400px;
+        height: 300px;
+    }
+    .box {
+        background: palevioletred;
+        text-align: center;
+        border: 6px solid maroon;
+        width: 80px;
+        height: 80px;
+    }
+    /* two */
+    .header  {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        margin-top: 2%;
+        justify-content: space-between;
+        font-family: monospace;
+        background: papayawhip;
+    }
+    .logo {
+        font-size: 48px;
+        font-weight: 900;
+        color: tomato;
+        background: white;
+        padding: 4px 32px;
+    }
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 8px;
+        list-style-type: none;
+    }
+    a {
+        font-size: 22px;
+        background: white;
+        padding: 8px;
+        text-decoration: none;
+    }
+    /* three */
+    .header2 {
+        font-family: serif;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 0 8px rgba(0,0,0,.1);
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    .profile-image {
+        background: rebeccapurple;
+        box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+    }
+    .logo2 {
+        font-family: serif;
+        color: rebeccapurple;
+        font-size: 32px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    button {
+        border: none;
+        border-radius: 8px;
+        background: rebeccapurple;
+        color: white;
+        padding: 8px 24px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header2 a {
+        font-family: serif;
+        text-decoration: none;
+        color: rebeccapurple;
+    }
+    .header2 ul{
+        font-family: serif;
+        list-style-type: none;
+    }
+    </style>
+</head>
+<body>
+    <div id="header">
+    <h2><a href="/index.html">dafni marcel</a></h2>
+    <h1>Flexbox</h1>
+    <h3>Exercise #1</h3>
+    <div class="section1">
+    <div class="container">
+        <div class="box">center this div</div>
+      </div>
+      </div>
+    <h3>Exercise #2</h3>
+        <div class="header">
+            <div class="left-links">
+              <ul>
+                <li><a href="#">ONE</a></li>
+                <li><a href="#">TWO</a></li>
+                <li><a href="#">THREE</a></li>
+              </ul>
+            </div>
+            <div class="logo">LOGO</div>
+            <div class="right-links">
+              <ul>
+                <li><a href="#">FOUR</a></li>
+                <li><a href="#">FIVE</a></li>
+                <li><a href="#">SIX</a></li>
+              </ul>
+            </div>
+          </div>
+    <h3>Exercise #3</h3>
+    <div class="header2">
+        <div class="logo2">
+          LOGO
+        </div>
+        <ul class="links">
+          <li><a href="https://google.com">link-one</a></li>
+          <li><a href="https://google.com">link-two</a></li>
+          <li><a href="https://google.com">link-three</a></li>
+        </ul>
+        <button class="notifications">
+          1 new notification
+        </button>
+        <div class="profile-image"></div>
+      </div>
+</body>
+</html>
